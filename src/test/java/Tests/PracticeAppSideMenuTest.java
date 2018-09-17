@@ -32,17 +32,6 @@ public class PracticeAppSideMenuTest extends TestBase {
 	Assert.assertTrue(practiceAppSideMenuPage.tapSubjectMenu());
     }
     
-    /*@Test (priority = 19)
-    public void tapSideMenuInPracticeReportsPage() {
-	Assert.assertTrue(practiceAppSideMenuPage.verifyAndTapSideMenu());
-	Assert.assertTrue(practiceAppSideMenuPage.verifyRightMenuItems());
-    }*/
-    
-    /*@Test (priority = 20)
-    public void tapSettingsMenu() {
-	Assert.assertTrue(practiceAppSideMenuPage.tapSettingsMenu());
-    }*/
-    
     @Test (priority = 19)
     public void tapSubjectMenuInPracticeReportPage() {
 	Assert.assertTrue(practiceAppSideMenuPage.verifyAndTapSideMenu());
@@ -52,6 +41,7 @@ public class PracticeAppSideMenuTest extends TestBase {
     
     @Test (priority = 20)
     public void signoutApp(){
-	Assert.assertTrue(practiceAppSideMenuPage.signOutApp());
+	
+        Assert.assertTrue(practiceAppSideMenuPage.signOutApp());
     }
 }
