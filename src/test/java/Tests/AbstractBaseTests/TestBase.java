@@ -44,9 +44,6 @@ public abstract class TestBase {
      * and used across all of the test classes.
      */
     public static AndroidDriver<MobileElement> driver;
-    //String profileDriver = System.getProperty("profileDriver");
-    //String platform = System.getProperty("platform");
-
     /**
      * This allows the navigation to work within the app.
      * The category name is returned so we can navigate to it from the navigation

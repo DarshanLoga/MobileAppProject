@@ -79,8 +79,6 @@ public class PracticeAppSideMenuPage extends PracticeAppLandingPage {
     }
     
     public boolean tapSubjectMenu() {
-        //verifyAndTapSideMenu();
-        //verifyRightMenuItems();
         if (subjectLink.isDisplayed()) {
             subjectLink.click();
 	    try {
