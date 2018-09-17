@@ -81,7 +81,7 @@ public abstract class TestBase {
      */
     @BeforeSuite
     public void setUpAppium() throws MalformedURLException {
-        /*final String URL_STRING = "http://127.0.0.1:4723/wd/hub";
+        final String URL_STRING = "http://127.0.0.1:4723/wd/hub";
         URL url = new URL( URL_STRING );
         //Use a empty DesiredCapabilities object
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -95,8 +95,8 @@ public abstract class TestBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-    }*/
-        final String URL_STRING = "http://127.0.0.1:4723/wd/hub";
+    }
+        /*final String URL_STRING = "http://127.0.0.1:4723/wd/hub";
         URL url = new URL (URL_STRING);
         //Use a empty DesiredCapabilities object
         DesiredCapabilities capabilities = new DesiredCapabilities ();
@@ -123,7 +123,7 @@ public abstract class TestBase {
         } catch (InterruptedException e) {
             e.printStackTrace ();
         }
-    }
+    }*/
 
     /**
      * Always remember to quit
