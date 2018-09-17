@@ -23,10 +23,6 @@ public class Tests_DeviceFarmTest {
 	    PracticeAppBrowsePageTest.class,
 	    PracticeAppPracticeTestPage.class,
 	    PracticeAppSideMenuTest.class
-	    //PracticeAppSettingsPageTest.class,
-	    //PracticeAppBrowsePageTest.class,
-	    //PracticeAppPracticeTestPage.class,
-	    //PracticeAppSideMenuTest.class
         });
         //execute the tests
         runner.run();
